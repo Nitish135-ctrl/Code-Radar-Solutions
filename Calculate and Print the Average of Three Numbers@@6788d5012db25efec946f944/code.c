@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
-    l=a+b+c/3;
+    l=(a+b+c)/3;
 
     printf("%d",l);
 

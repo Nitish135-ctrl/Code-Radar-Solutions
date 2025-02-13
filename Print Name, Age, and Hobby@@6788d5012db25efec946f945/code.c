@@ -6,9 +6,9 @@ int main(){
     scanf("%s",&s);
     scanf("%s",&a);
     scanf("%d",&b);
-    printf("%s",s);
-    printf("%s",a);
-    printf("%d",b);
+    printf("Name: %s\n",s);
+    printf("Age: %s\n",a);
+    printf("Hobby: %d\n",b);
 
 
 }

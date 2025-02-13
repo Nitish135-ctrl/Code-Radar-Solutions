@@ -2,6 +2,6 @@
 #include<stdio.h>
 int main(){
     float a;
-    scanf("%lf",a);
-    printf("%lf",a);
+    scanf("%lf",&a);
+    printf("You entered: %lf",a);
 }

@@ -6,13 +6,13 @@ int main(){
     if(a>=90){
         printf("A");
     }
-    else if(a>=80 and <90){
+    else if(a>=80 && <90){
         printf("B");
     }
-    else if(a>=70 and a<80){
+    else if(a>=70 && a<80){
         printf("C");
     }
-    else if(a>=60 and a<70){
+    else if(a>=60 && a<70){
         printf("D");
     }
     else{

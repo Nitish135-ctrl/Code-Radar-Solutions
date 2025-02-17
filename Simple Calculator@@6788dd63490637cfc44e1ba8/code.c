@@ -6,9 +6,9 @@ int main() {
     int num1, num2;
 
     // Input the operator and two numbers
-    printf("Enter an operator (+, -, *, /): ");
+    
     scanf("%c", &operator);  // Read operator
-    printf("Enter two numbers: ");
+    
     scanf("%d %d", &num1, &num2);  // Read two numbers
 
     // Perform operation based on operator

@@ -3,13 +3,13 @@
 
 int main() {
     char operator;
-    int num1, num2;
+    double num1, num2;
 
     // Input the operator and two numbers
-    
+    printf("Enter an operator (+, -, *, /): ");
     scanf("%c", &operator);  // Read operator
-    
-    scanf("%d %d", &num1, &num2);  // Read two numbers
+    printf("Enter two numbers: ");
+    scanf("%lf %lf", &num1, &num2);  // Read two numbers
 
     // Perform operation based on operator
     switch (operator) {
@@ -34,5 +34,3 @@ int main() {
 
     return 0;
 }
-
-
